@@ -1,6 +1,6 @@
 import * as Express from "express";
 import {OpenApi} from '@openapi-ts/backend';
-import {applyResponse, buildRequest} from 'src/converters';
+import {applyResponse, buildRequest} from './converters';
 
 export type ExpressSource = {
   express: {
